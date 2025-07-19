@@ -5,43 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitch Clip Auto-Poster</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        header { text-align: center; border-bottom: 2px solid #9146ff; padding-bottom: 20px; margin-bottom: 30px; }
-        .nav { text-align: center; margin: 20px 0; }
-        .nav a { margin: 0 15px; color: #9146ff; text-decoration: none; }
-        .feature { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+            background-color: #fafafa;
+        }
+        header { 
+            text-align: center; 
+            border-bottom: 2px solid #9146ff; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .nav { 
+            text-align: center; 
+            margin: 20px 0; 
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav a { 
+            margin: 0 20px; 
+            color: #9146ff; 
+            text-decoration: none; 
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #9146ff;
+            color: white;
+        }
+        .feature { 
+            background: #fff; 
+            padding: 20px; 
+            margin: 15px 0; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .feature h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .hero {
+            background: linear-gradient(135deg, #9146ff, #6441a4);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .hero p {
+            margin: 0;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .benefits {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .benefits h3 {
+            color: #2d5a2d;
+            margin-top: 0;
+        }
+        .benefits ul {
+            color: #2d5a2d;
+        }
+        footer { 
+            text-align: center; 
+            margin-top: 40px; 
+            padding: 20px; 
+            border-top: 2px solid #9146ff;
+            background: #fff;
+            border-radius: 8px;
+        }
+        .legal-links {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+        .legal-links a {
+            color: #9146ff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .legal-links a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            color: #666;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Twitch Clip Auto-Poster</h1>
-        <p>Automate your gaming content from Twitch to TikTok</p>
+        <p>Professional Gaming Content Automation Platform</p>
     </header>
     
+    <!-- Prominent Legal Links Navigation -->
     <nav class="nav">
         <a href="terms.html">Terms of Service</a>
         <a href="privacy.html">Privacy Policy</a>
+        <a href="#contact">Contact</a>
     </nav>
     
     <main>
+        <!-- Hero Section -->
+        <div class="hero">
+            <h2>Automate Your Gaming Content</h2>
+            <p>Seamlessly share your best Twitch gaming moments on TikTok with AI-powered captions</p>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="benefits">
+            <h3>Why Gaming Creators Choose Our Platform</h3>
+            <ul>
+                <li>Save hours of manual content posting work</li>
+                <li>Grow your audience across multiple platforms</li>
+                <li>Professional AI-generated captions that engage viewers</li>
+                <li>Secure and reliable automation you can trust</li>
+            </ul>
+        </div>
+        
+        <!-- Features -->
         <div class="feature">
-            <h3>🎮 Gaming Content Automation</h3>
-            <p>Automatically process and share your best Twitch gaming moments on TikTok with AI-generated captions.</p>
+            <h3>🎮 Smart Gaming Content Detection</h3>
+            <p>Our platform automatically identifies your most engaging Twitch gaming clips and prepares them for TikTok sharing. Perfect for streamers who want to maximize their content reach without manual effort.</p>
         </div>
         
         <div class="feature">
-            <h3>🤖 AI-Powered Captions</h3>
-            <p>Generate viral-worthy captions based on actual audio content from your clips.</p>
+            <h3>🤖 AI-Powered Caption Generation</h3>
+            <p>Advanced AI analyzes your gaming clips' audio content to create viral-worthy captions that boost engagement. Each caption is tailored to maximize your content's discoverability on TikTok.</p>
         </div>
         
         <div class="feature">
-            <h3>📱 Multi-Platform Sharing</h3>
-            <p>Streamline your content creation workflow across multiple social media platforms.</p>
+            <h3>📱 Professional Multi-Platform Management</h3>
+            <p>Streamline your content creation workflow with our professional automation tools. Built for serious gaming content creators who want to scale their presence across social media platforms.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🛡️ Secure & Compliant</h3>
+            <p>Your data and accounts are protected with industry-standard security measures. We comply with all platform policies and privacy regulations to keep your accounts safe.</p>
         </div>
     </main>
     
-    <footer style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
-        <p>Contact: [achraf.abed@enis.tn]</p>
+    <footer id="contact">
+        <!-- Repeated Legal Links for Extra Visibility -->
+        <div class="legal-links">
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        
+        <div class="contact">
+            <p><strong>Contact Information:</strong></p>
+            <p>Email: achraf.abed@enis.tn</p>
+            <p>For support, privacy questions, or terms clarification</p>
+        </div>
+        
+        <div style="margin-top: 20px; color: #888; font-size: 12px;">
+            <p>© 2025 Twitch Clip Auto-Poster. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
